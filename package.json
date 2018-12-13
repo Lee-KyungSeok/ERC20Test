@@ -1,0 +1,60 @@
+{
+  "name": "erc20first",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "scripts/test.sh",
+    "compile": "scripts/compile.sh",
+    "lint": "scripts/lint.sh",
+    "analyze": "scripts/analyze.sh",
+    "coverage": "scripts/coverage.sh",
+    "flatten": "scripts/flatten.sh",
+    "ganache-cli": "ganache-cli -d -m 'hello' -l 10000000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@joincivil/doxity": "0.0.1",
+    "ajv": "^6.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "config": "^2.0.1",
+    "dotenv": "^4.0.0",
+    "ethereumjs-tx": "^1.3.7",
+    "ethereumjs-vm": "^2.5.0",
+    "ethereumjs-wallet": "^0.6.2",
+    "ethjs-abi": "^0.2.1",
+    "growl": "^1.10.0",
+    "openzeppelin-solidity": "^2.0.0",
+    "truffle-hdwallet-provider-privkey": "^0.2.0",
+    "truffle-ledger-provider": "0.0.1"
+  },
+  "devDependencies": {
+    "@digix/doxity": "^0.4.6",
+    "babel-cli": "^6.26.0",
+    "babel-preset-node6": "^11.0.0",
+    "babel-register": "^6.26.0",
+    "chai": "^4.0.2",
+    "chai-as-promised": "^7.0.0",
+    "chai-bignumber": "^2.0.0",
+    "coveralls": "^3.0.2",
+    "eslint": "^4.11.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "eth-gas-reporter": "^0.1.12",
+    "ethereumjs-testrpc": "^6.0.1",
+    "ethereumjs-util": "^5.1.2",
+    "mocha-lcov-reporter": "^1.3.0",
+    "solidity-coverage": "^0.5.11",
+    "solium": "^1.1.8",
+    "truffle": "^4.1.13",
+    "truffle-hdwallet-provider": "0.0.3"
+  }
+}
